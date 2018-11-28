@@ -1,10 +1,10 @@
-###Create a new project
+<h3>Create a new project</h3>
 `$ npm init`
 
-###The framework used is next.js version 4.1.4
+<h3>The framework used is next.js version 4.1.4</h3>
 `$ npm install --save next@4.1.4`
 
-###Various libraries installed are:
+<h3>Various libraries installed are:</h3>
 `$ npm install --save solc`
 
 `$ npm install --save mocha ganache-cli fs-extra web3@1.0.0-beta.26`
@@ -17,14 +17,14 @@
 
 `$ npm install --save semantic-ui-css`
 
-###To run the application
+<h3>To run the application</h3>
 
 1. Add {"dev": "next dev"} in the scripts section of package.json
 2. Run command:
    `$ npm run dev`
 3. Browse to localhost:3000
 
-###Important Notes
+<h3>Important Notes</h3>
 
 1. The content of the files stored in the pages folder can be displayed from the browser by appending the url with `/filename`.
 2. `index.js` serves to be the root page that gets displayed on running the application.
