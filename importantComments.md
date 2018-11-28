@@ -1,10 +1,13 @@
 <h3>Create a new project</h3>
+
 `$ npm init`
 
 <h3>The framework used is next.js version 4.1.4</h3>
+
 `$ npm install --save next@4.1.4`
 
 <h3>Various libraries installed are:</h3>
+
 `$ npm install --save solc`
 
 `$ npm install --save mocha ganache-cli fs-extra web3@1.0.0-beta.26`
