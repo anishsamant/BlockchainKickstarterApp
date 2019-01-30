@@ -105,8 +105,22 @@ contract Campaign {
         require(request.approvalCount > (contributersCount/2));
         
         //After above conditions satisfy
-        request.recipient.transfer(request.value);
+        request.recipient.transfer(request.value); //transfer the agreed amount to the recipient address
         request.complete = true;
+    }
+
+    function getSummary() public view returns(uint, uint, uint, uint, address) {
+        return (
+            minimumContribution,
+            address(this).balance,
+            requests.length,
+            contributersCount,
+            manager
+        );
+    }
+
+    function getRequestCount() public view returns(uint) {
+        return requests.length;
     }
 }
 

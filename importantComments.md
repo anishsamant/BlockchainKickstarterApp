@@ -20,12 +20,16 @@
 
 `$ npm install --save semantic-ui-css`
 
+`$ npm install --save next-routes`
+
 <h3>To run the application</h3>
 
-1. Add {"dev": "next dev"} in the scripts section of package.json
-2. Run command:
+1. Add `{"dev": "next dev"}` in the scripts section of package.json.
+2. If we have customizations to our `next` application we Add `{"dev": "node server.js"}` instead in the scripts section of package.json.}
+
+3. Run command:
    `$ npm run dev`
-3. Browse to localhost:3000
+4. Browse to localhost:3000
 
 <h3>Important Notes</h3>
 
@@ -36,3 +40,5 @@
 5. `next.js` provides <b>server side rendering, routing and hot module reloading</b> facility. It renders the files at the server and sends rendered HTML content to the browser followed by the JS code.
 6. `window` is a global variable available only on the browser and not on the node js server.
 7. The ethereum network is accessed through the next server hence the application will run irrespective of whether the browser has access to the ethereum network or not.
+8. To handle routes/urls with custom tokens we make use of `next-routes` module. We create a file named `routes.js` and add all the custom routes in that file. We also create a `server.js` file that can allow us to manaully boot up the "next" application and tell it to specifically to use the `routes.js` file.
+9. The `<Link>` tag gives the navigational functionality(does the work of `href`) and the `<a>` tag provides us to click the link.

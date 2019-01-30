@@ -1,2 +1,2 @@
-ignoreTestFile.txt
-/ignoreTest/
+node_modules
+ethereum/build

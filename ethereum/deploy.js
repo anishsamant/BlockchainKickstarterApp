@@ -3,8 +3,8 @@ const Web3 = require("web3");
 const compiledFactory = require("./build/CampaignFactory.json");
 
 const provider = new HDWalletProvider(
-  "fly trust laugh steel real update symbol neither witness add cruise oil",
-  "https://rinkeby.infura.io/v3/3d4d898804a242b98d93b36e000275fd"
+  "enter your metamask seed phrase here",
+  "enter infura endpoint for rinkeby test network here"
 );
 
 const web3 = new Web3(provider);
