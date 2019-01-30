@@ -18,7 +18,7 @@ npm install
 node compile.js
 ```
 
-#### 4. Inside the deploy.js file add your meta mask seed words and infura endpoint for rinkeby test network as mentioned in the file. Run the deploy.js file after making the changes.
+#### 4. Inside the deploy.js file add your meta mask seed words and infura endpoint (Create an account [here](https://infura.io/) to setup the endpoint) for rinkeby test network as mentioned in the file. Run the deploy.js file after making the changes.
 ```
 node deploy.js
 ```
