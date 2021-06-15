@@ -22,7 +22,7 @@ class CampaignNew extends Component {
 
     //check for any invalid input from the user
     try {
-      await window.ethereum.enable()
+      await window.ethereum.enable();
       const accounts = await web3.eth.getAccounts();
       await factory.methods
         .createCampaign(this.state.minimumContribution)
