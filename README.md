@@ -22,6 +22,12 @@ node compile.js
 ```
 node deploy.js
 ```
+#### Note: Incase you get an Error: Cannot find module 'truffle-hdwallet-provider' install the provider using the following command.
+```
+npm install @truffle/hdwallet-provider
+```
+
+
 
 #### 5. Note the address where the contract gets deployed from the terminal and paste the address in factory.js file at the mentioned place.
 
