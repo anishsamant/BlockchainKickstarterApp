@@ -17,21 +17,19 @@ npm install
 ```
 node compile.js
 ```
+#### 4. Inside the ethereum directory run the following command to install the truffle hd wallet provider.
+```
+npm install @truffle/hdwallet-provider
+```
 
-#### 4. Inside the deploy.js file add your meta mask seed words and infura endpoint (Create an account [here](https://infura.io/) to setup the endpoint) for rinkeby test network as mentioned in the file. Run the deploy.js file after making the changes.
+#### 5. Inside the deploy.js file add your meta mask seed words and infura endpoint (Create an account [here](https://infura.io/) to setup the endpoint) for rinkeby test network as mentioned in the file. Run the deploy.js file after making the changes.
 ```
 node deploy.js
 ```
-#### Note: Incase you get an Error: Cannot find module 'truffle-hdwallet-provider' install the provider using the following command.
-```
-npm install truffle-hdwallet-provider
-```
 
+#### 6. Note the address where the contract gets deployed from the terminal and paste the address in factory.js file at the mentioned place.
 
-
-#### 5. Note the address where the contract gets deployed from the terminal and paste the address in factory.js file at the mentioned place.
-
-#### 6. All set. Run the project.
+#### 7. All set. Run the project.
 ```
 npm run dev
 ```
