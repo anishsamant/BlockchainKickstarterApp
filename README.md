@@ -24,7 +24,7 @@ node deploy.js
 ```
 #### Note: Incase you get an Error: Cannot find module 'truffle-hdwallet-provider' install the provider using the following command.
 ```
-npm install @truffle/hdwallet-provider
+npm install truffle-hdwallet-provider
 ```
 
 
