@@ -1,5 +1,5 @@
 # BlockchainKickstarterApp
-The project implements the various features of the Kickstarter website using the concept of smart contracts and Blockchain technology.
+The project implements a prototype of a crowd funding website that is triggered by a smart contract written in solidity.
 
 ### Steps to setup
 #### 1. Clone the repository and cd into the project directory
@@ -13,7 +13,7 @@ cd BlockchainKickstarterApp
 npm install
 ```
 
-#### 3. Inside ethereum directory Run the compile.js file. This will create a build folder in the same directory storing the json        equivalent of the created contracts.
+#### 3. Inside ethereum directory Run the compile.js file. This will create a build folder in the same directory storing the json equivalent of the created contracts.
 ```
 node compile.js
 ```
